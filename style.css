@@ -101,6 +101,10 @@ p {
     background-color: ivory;
 }
 
+.last-section {
+    margin-top: 100px;
+}
+
 .form-style-1 {
     margin: 10px auto;
     max-width: 400px;
