@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+span {
+    color: orange;
+}
+
 h1 h2 h3 {
     font-family: 'Yeseva One', cursive;
     font-size: 80px;
@@ -24,7 +28,7 @@ p {
 
 .link-button {
     text-decoration: none;
-    background: green;
+    background: rgb(70, 138, 70);
     color: white;
     padding: 10px 22px;
     font-weight: bold;
@@ -53,33 +57,40 @@ p {
     width: 100%;
 }
 
-.my-mission {
+.second-full-section {
     text-align: center;
     width: 90%;
     margin: auto;
     padding: 50px;
 }
 
-.all-mission {
+.mission {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px gray;
+}
+
+.all-missions {
     display: flex;
     justify-content: space-around;
 }
 
-.mission {
-    width: 300px;
-    border-radius: 5px;
-}
-
-.vision {
-    width: 300px;
-    border-radius: 5px;
-}
-
-.goals {
-    width: 300px;
-    border-radius: 5px;
-}
-
 .photo img {
-    width: 50%;
+    width: 70%;
+}
+
+.content {
+    padding: 10px;
+}
+
+#first-box {
+    background-color: rgb(233, 223, 223);
+}
+
+#second-box {
+    background-color: rgb(185, 245, 185);
+}
+
+#third-box {
+    background-color: ivory;
 }
