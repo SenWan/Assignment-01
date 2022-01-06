@@ -182,15 +182,26 @@ select {
 
 .contact {
     display: flex;
-    width: 90%;
 }
 
 form {
-    margin-left: 150px;
+    margin-left: 100px;
+    width: 400px;
 }
 
 .contact-section {
     text-align: left;
-    margin-left: 50px;
     margin-top: 50px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-content {
+    font-family: 'Waterfall', cursive;
+
 }
